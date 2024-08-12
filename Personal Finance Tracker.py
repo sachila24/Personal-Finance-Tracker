@@ -121,7 +121,7 @@ def update_transaction():
             save_transaction()
             print ("\n--- Transaction Updated successfully ---")
         else:
-            print ("Invaild index!. Please try again..")
+            print ("Invalid index!. Please try again..")
     else:
         print ("Transaction name was not found!. Please try again..")
 
@@ -153,7 +153,7 @@ def display_summery():
                 elif tr['type'] == "Expense":
                     total_expense += tr['amount']
                 else:
-                    print ("Invaild category")
+                    print ("Invalid category")
 
             except Exception as e:
                 print (f"An error occurred : {e}")
@@ -176,8 +176,8 @@ class FinanceTrackerGUI:
 
     def create_widgets(self):
         # Frame for table and scrollbar
-        self.lable1 = ttk.Label(self.root, text='Personal Finance Tracker', font=('Arial', 16, 'bold'))
-        self.lable1.pack(pady=10)
+        self.label1 = ttk.Label(self.root, text='Personal Finance Tracker', font=('Arial', 16, 'bold'))
+        self.label1.pack(pady=10)
 
         self.frame = ttk.Frame(self.root)
         self.frame.pack(fill='both', expand=True)
@@ -234,7 +234,7 @@ class FinanceTrackerGUI:
             self.display_transactions(self.transactions)
 
     def sort_by_column(self, col):
-        # Pleceholder for sorting functionality
+        # Placeholder for sorting functionality
         current_data = self.table.get_children('')
         column_values = [(self.table.set(item, col), item) for item in current_data]
         column_values.sort(reverse=self.reverse_sorting[col])
@@ -289,7 +289,7 @@ def main_menu():
             print ("Exiting Program ...")
             break
         else:
-            print ("Invaild choice!. Please try again ..")
+            print ("Invalid choice!. Please try again ..")
 
 # Run the program
 if __name__ == "__main__":
