@@ -1,0 +1,74 @@
+{
+    "salary": [
+        {
+            "amount": 525000.0,
+            "type": "Income",
+            "date": "2024-03-01"
+        },
+        {
+            "amount": 565450.0,
+            "type": "Income",
+            "date": "2024-04-01"
+        },
+        {
+            "amount": 565450.0,
+            "type": "Income",
+            "date": "2024-04-01"
+        }
+    ],
+    "grosery": [
+        {
+            "amount": 230000.0,
+            "type": "Expense",
+            "date": "2024-03-03"
+        },
+        {
+            "amount": 234000.0,
+            "type": "Expense",
+            "date": "2024-04-02"
+        },
+        {
+            "amount": 234000.0,
+            "type": "Expense",
+            "date": "2024-04-02"
+        }
+    ],
+    "fuel": [
+        {
+            "amount": 24500.0,
+            "type": "Expense",
+            "date": "2024-04-04"
+        },
+        {
+            "amount": 24500.0,
+            "type": "Expense",
+            "date": "2024-04-04"
+        }
+    ],
+    "dinner": [
+        {
+            "amount": 98000.0,
+            "type": "Expense",
+            "date": "2023-04-04"
+        },
+        {
+            "amount": 98000.0,
+            "type": "Expense",
+            "date": "2023-04-04"
+        }
+    ],
+    "for mobile": [
+        {
+            "amount": 500000.0,
+            "type": "Expense",
+            "date": "2024-04-25"
+        }
+    ],
+    "gift voucher": [
+        {
+            "amount": 150000.0,
+            "type": "Income",
+            "date": "2024-04-14"
+        }
+    ]
+}

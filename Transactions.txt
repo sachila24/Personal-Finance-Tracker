@@ -1,0 +1,4 @@
+565450 | salary | Income | 2024-04-01
+234000 | grosery | Expense | 2024-04-02
+24500 | fuel | Expense | 2024-04-04
+98000 | dinner | Expense | 2023-04-04
